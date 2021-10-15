@@ -2,3 +2,5 @@
 compassrepo
 test
 test
+test
+test
