@@ -1,0 +1,299 @@
+Last login: Wed Oct 13 17:55:32 on ttys001
+niloymaitra@Niloys-Air ~ % pwd
+/Users/niloymaitra
+niloymaitra@Niloys-Air ~ % ls 
+Desktop		Downloads	Meher OCI	Music		Public
+Documents	Library		Movies		Pictures	compass-test
+niloymaitra@Niloys-Air ~ % cd compass-test 
+niloymaitra@Niloys-Air compass-test % ls
+README.md
+niloymaitra@Niloys-Air compass-test % ls -ltr
+total 8
+-rw-r--r--  1 niloymaitra  staff  14 Oct 13 13:35 README.md
+niloymaitra@Niloys-Air compass-test % cd..
+zsh: command not found: cd..
+niloymaitra@Niloys-Air compass-test % cd ..
+niloymaitra@Niloys-Air ~ % ls
+Desktop		Downloads	Meher OCI	Music		Public
+Documents	Library		Movies		Pictures	compass-test
+niloymaitra@Niloys-Air ~ % cd Documents 
+niloymaitra@Niloys-Air Documents % ls
+Citizenship	Niloy		WebEx		demofile2.txt	radhika.py
+MyFile.csv	Radhika-compass	Zoom		output.csv
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:kwejrlkewjrklwejrekwjr
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 49.23518518518518
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:dsfwefwerf
+Enter User token:werewrwerewrer
+Enter number of commits:10
+Establishing connection....
+Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+Traceback (most recent call last):
+  File "radhika.py", line 40, in <module>
+    repos = requests.get(repo_url,auth=(username,token))
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 528, in request
+    prep = self.prepare_request(req)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 456, in prepare_request
+    p.prepare(
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 316, in prepare
+    self.prepare_url(url, params)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 390, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:;dslf;dlf;dlsf;'dsfl
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 49.23518518518518
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:li3u4oiui
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 49.23518518518518
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:lek;lrkewl;krlewkrew
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 49.23518518518518
+niloymaitra@Niloys-Air Documents % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:10
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 49.23518518518518
+niloymaitra@Niloys-Air Documents % pwd
+/Users/niloymaitra/Documents
+niloymaitra@Niloys-Air Documents % cd Radhika-compass 
+niloymaitra@Niloys-Air Radhika-compass % cd compass-test 
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:lkdjkljsfkjfksdjf
+Enter number of commits:10
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 36.86296296296297
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:qklel;k;lekwql;ek
+Enter number of commits:11
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:lkdjkljsfkjfksdjf
+Enter number of commits:11
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:11
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:11
+Enter number of commits:11
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:14
+Enter number of commits:14
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token:dewre
+Enter number of commits:14
+Establishing connection....
+writing data to output.csv
+The mean in minutes is 41.34615384615385
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+Traceback (most recent call last):
+  File "radhika.py", line 37, in <module>
+    repos = requests.get(repo_url,auth=(username,token))
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/api.py", line 61, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 528, in request
+    prep = self.prepare_request(req)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/sessions.py", line 456, in prepare_request
+    p.prepare(
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 316, in prepare
+    self.prepare_url(url, params)
+  File "/Users/niloymaitra/Library/Python/3.8/lib/python/site-packages/requests/models.py", line 390, in prepare_url
+    raise MissingSchema(error)
+requests.exceptions.MissingSchema: Invalid URL 'None': No schema supplied. Perhaps you meant http://None?
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+{'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False, 'name': None, 'company': None, 'blog': '', 'location': None, 'email': None, 'hireable': None, 'bio': None, 'twitter_username': None, 'public_repos': 1, 'public_gists': 0, 'followers': 0, 'following': 0, 'created_at': '2020-09-02T15:22:19Z', 'updated_at': '2021-10-13T17:21:20Z', 'private_gists': 0, 'total_private_repos': 1, 'owned_private_repos': 1, 'disk_usage': 6, 'collaborators': 0, 'two_factor_authentication': False, 'plan': {'name': 'free', 'space': 976562499, 'collaborators': 0, 'private_repos': 10000}}
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+[{'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+{'message': 'Must specify access token via Authorization header. https://developer.github.com/changes/2020-02-10-deprecating-auth-through-query-param', 'documentation_url': 'https://docs.github.com/v3/#oauth2-token-sent-in-a-header'}
+'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "radhika.py", line 42, in <module>
+    commits = requests.get('https://api.github.com/repos/'+x.get('full_name')+'/commits?access_token='+token,auth=(username,token))
+AttributeError: 'str' object has no attribute 'get'
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+[{'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 73, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+https://api.github.com/users/radhika19811306/repos
+[{'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 74, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+https://api.github.com/users/radhika19811306/repos
+[{'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+list index out of range
+Traceback (most recent call last):
+  File "radhika.py", line 74, in <module>
+    diff.append(int(date_list[i].timestamp()*1000)-int(date_list[i+1].timestamp()*1000))
+IndexError: list index out of range
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+https://api.github.com/users/radhika19811306/repos
+{'message': 'Not Found', 'documentation_url': 'https://docs.github.com/rest'}
+'str' object has no attribute 'get'
+Traceback (most recent call last):
+  File "radhika.py", line 43, in <module>
+    commits = requests.get('https://api.github.com/repos/'+x.get('full_name')+'/commits?access_token='+token,auth=(username,token))
+AttributeError: 'str' object has no attribute 'get'
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+https://api.github.com/users/radhika19811306/repos
+[{'id': 416839600, 'node_id': 'R_kgDOGNh3sA', 'name': 'compass-test', 'full_name': 'radhika19811306/compass-test', 'private': True, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compass-test', 'description': None, 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compass-test', 'forks_url': 'https://api.github.com/repos/radhika19811306/compass-test/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compass-test/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compass-test/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compass-test/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compass-test/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compass-test/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compass-test/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compass-test/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compass-test/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compass-test/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compass-test/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compass-test/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compass-test/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compass-test/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compass-test/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compass-test/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compass-test/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compass-test/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compass-test/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compass-test/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compass-test/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compass-test/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compass-test/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compass-test/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compass-test/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compass-test/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compass-test/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compass-test/deployments', 'created_at': '2021-10-13T17:35:15Z', 'updated_at': '2021-10-14T02:36:26Z', 'pushed_at': '2021-10-14T02:32:46Z', 'git_url': 'git://github.com/radhika19811306/compass-test.git', 'ssh_url': 'git@github.com:radhika19811306/compass-test.git', 'clone_url': 'https://github.com/radhika19811306/compass-test.git', 'svn_url': 'https://github.com/radhika19811306/compass-test', 'homepage': None, 'size': 4, 'stargazers_count': 0, 'watchers_count': 0, 'language': 'Python', 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'private', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}, {'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+The mean in minutes is 41.34615384615385
+niloymaitra@Niloys-Air compass-test % python3 radhika.py
+Enter User name:radhika19811306
+Enter User token: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
+Enter number of commits:14
+Establishing connection....
+[{'id': 416839600, 'node_id': 'R_kgDOGNh3sA', 'name': 'compass-test', 'full_name': 'radhika19811306/compass-test', 'private': True, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compass-test', 'description': None, 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compass-test', 'forks_url': 'https://api.github.com/repos/radhika19811306/compass-test/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compass-test/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compass-test/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compass-test/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compass-test/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compass-test/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compass-test/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compass-test/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compass-test/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compass-test/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compass-test/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compass-test/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compass-test/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compass-test/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compass-test/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compass-test/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compass-test/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compass-test/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compass-test/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compass-test/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compass-test/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compass-test/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compass-test/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compass-test/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compass-test/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compass-test/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compass-test/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compass-test/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compass-test/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compass-test/deployments', 'created_at': '2021-10-13T17:35:15Z', 'updated_at': '2021-10-14T02:36:26Z', 'pushed_at': '2021-10-14T02:32:46Z', 'git_url': 'git://github.com/radhika19811306/compass-test.git', 'ssh_url': 'git@github.com:radhika19811306/compass-test.git', 'clone_url': 'https://github.com/radhika19811306/compass-test.git', 'svn_url': 'https://github.com/radhika19811306/compass-test', 'homepage': None, 'size': 4, 'stargazers_count': 0, 'watchers_count': 0, 'language': 'Python', 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'private', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}, {'id': 416835478, 'node_id': 'R_kgDOGNhnlg', 'name': 'compassrepo', 'full_name': 'radhika19811306/compassrepo', 'private': False, 'owner': {'login': 'radhika19811306', 'id': 70651907, 'node_id': 'MDQ6VXNlcjcwNjUxOTA3', 'avatar_url': 'https://avatars.githubusercontent.com/u/70651907?v=4', 'gravatar_id': '', 'url': 'https://api.github.com/users/radhika19811306', 'html_url': 'https://github.com/radhika19811306', 'followers_url': 'https://api.github.com/users/radhika19811306/followers', 'following_url': 'https://api.github.com/users/radhika19811306/following{/other_user}', 'gists_url': 'https://api.github.com/users/radhika19811306/gists{/gist_id}', 'starred_url': 'https://api.github.com/users/radhika19811306/starred{/owner}{/repo}', 'subscriptions_url': 'https://api.github.com/users/radhika19811306/subscriptions', 'organizations_url': 'https://api.github.com/users/radhika19811306/orgs', 'repos_url': 'https://api.github.com/users/radhika19811306/repos', 'events_url': 'https://api.github.com/users/radhika19811306/events{/privacy}', 'received_events_url': 'https://api.github.com/users/radhika19811306/received_events', 'type': 'User', 'site_admin': False}, 'html_url': 'https://github.com/radhika19811306/compassrepo', 'description': 'compassrepo', 'fork': False, 'url': 'https://api.github.com/repos/radhika19811306/compassrepo', 'forks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/forks', 'keys_url': 'https://api.github.com/repos/radhika19811306/compassrepo/keys{/key_id}', 'collaborators_url': 'https://api.github.com/repos/radhika19811306/compassrepo/collaborators{/collaborator}', 'teams_url': 'https://api.github.com/repos/radhika19811306/compassrepo/teams', 'hooks_url': 'https://api.github.com/repos/radhika19811306/compassrepo/hooks', 'issue_events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/events{/number}', 'events_url': 'https://api.github.com/repos/radhika19811306/compassrepo/events', 'assignees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/assignees{/user}', 'branches_url': 'https://api.github.com/repos/radhika19811306/compassrepo/branches{/branch}', 'tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/tags', 'blobs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/blobs{/sha}', 'git_tags_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/tags{/sha}', 'git_refs_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/refs{/sha}', 'trees_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/trees{/sha}', 'statuses_url': 'https://api.github.com/repos/radhika19811306/compassrepo/statuses/{sha}', 'languages_url': 'https://api.github.com/repos/radhika19811306/compassrepo/languages', 'stargazers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/stargazers', 'contributors_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contributors', 'subscribers_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscribers', 'subscription_url': 'https://api.github.com/repos/radhika19811306/compassrepo/subscription', 'commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/commits{/sha}', 'git_commits_url': 'https://api.github.com/repos/radhika19811306/compassrepo/git/commits{/sha}', 'comments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/comments{/number}', 'issue_comment_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues/comments{/number}', 'contents_url': 'https://api.github.com/repos/radhika19811306/compassrepo/contents/{+path}', 'compare_url': 'https://api.github.com/repos/radhika19811306/compassrepo/compare/{base}...{head}', 'merges_url': 'https://api.github.com/repos/radhika19811306/compassrepo/merges', 'archive_url': 'https://api.github.com/repos/radhika19811306/compassrepo/{archive_format}{/ref}', 'downloads_url': 'https://api.github.com/repos/radhika19811306/compassrepo/downloads', 'issues_url': 'https://api.github.com/repos/radhika19811306/compassrepo/issues{/number}', 'pulls_url': 'https://api.github.com/repos/radhika19811306/compassrepo/pulls{/number}', 'milestones_url': 'https://api.github.com/repos/radhika19811306/compassrepo/milestones{/number}', 'notifications_url': 'https://api.github.com/repos/radhika19811306/compassrepo/notifications{?since,all,participating}', 'labels_url': 'https://api.github.com/repos/radhika19811306/compassrepo/labels{/name}', 'releases_url': 'https://api.github.com/repos/radhika19811306/compassrepo/releases{/id}', 'deployments_url': 'https://api.github.com/repos/radhika19811306/compassrepo/deployments', 'created_at': '2021-10-13T17:21:33Z', 'updated_at': '2021-10-14T00:58:26Z', 'pushed_at': '2021-10-14T00:58:23Z', 'git_url': 'git://github.com/radhika19811306/compassrepo.git', 'ssh_url': 'git@github.com:radhika19811306/compassrepo.git', 'clone_url': 'https://github.com/radhika19811306/compassrepo.git', 'svn_url': 'https://github.com/radhika19811306/compassrepo', 'homepage': None, 'size': 2, 'stargazers_count': 0, 'watchers_count': 0, 'language': None, 'has_issues': True, 'has_projects': True, 'has_downloads': True, 'has_wiki': True, 'has_pages': False, 'forks_count': 0, 'mirror_url': None, 'archived': False, 'disabled': False, 'open_issues_count': 0, 'license': None, 'allow_forking': True, 'is_template': False, 'topics': [], 'visibility': 'public', 'forks': 0, 'open_issues': 0, 'watchers': 0, 'default_branch': 'main', 'permissions': {'admin': True, 'maintain': True, 'push': True, 'triage': True, 'pull': True}}]
+writing data to output.csv
+The mean in minutes is 41.34615384615385
+niloymaitra@Niloys-Air compass-test % 
