@@ -19,6 +19,7 @@ Assumptions
 1. The commits will be fetched for user and user name should be provided
 2. the user can have more than 1 repo
 3. when calculating the mean the interval between each of the x commits is calcuated in decending order. Hence mean is calculated over x-1 values
+4. I have not used log4j but logging capabilities for debugging can be added easily
 
 
 
